@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../images/logo.svg";
 import { GrFacebookOption } from "react-icons/gr";
-import { FaTwitter, FaPinterest, FaInstagram } from "react-icons/fa";
+import { FaTwitter, FaPinterest, FaInstagram, FaGithub } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -37,19 +37,43 @@ const Footer = () => {
         <div className="footer-icons">
           <ul>
             <li>
-              <GrFacebookOption />
+              <a
+                href="https://www.facebook.com/emmanuel.udeme.902"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <GrFacebookOption />
+              </a>
               <div className="line"></div>
             </li>
             <li>
-              <FaTwitter />
+              <a
+                href="https://twitter.com/quietdev_udy"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaTwitter />
+              </a>
               <div className="line"></div>
             </li>
             <li>
-              <FaPinterest />
+              <a
+                href="https://github.com/Udeme01"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaGithub />
+              </a>
               <div className="line"></div>
             </li>
             <li>
-              <FaInstagram />
+              <a
+                href="https://www.instagram.com/quietdev_udy"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaInstagram />
+              </a>
               <div className="line"></div>
             </li>
           </ul>

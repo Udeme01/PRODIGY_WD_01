@@ -30,12 +30,12 @@ const Header = () => {
       <header className={color ? "header active" : "header"}>
         {/* Loopstudios logo */}
         {/* <div className="log"> */}
-          <img className="outerLogo" src={logo} alt="Loopstudios" />
+        <img className="outerLogo" src={logo} alt="Loopstudios" />
         {/* </div> */}
 
         {/* Mobile Navigation Menu */}
         <nav className={`${navbarOpen ? "active" : ""}`}>
-            <img className="logo" src={logo} alt="Loopstudios" />
+          <img className="logo" src={logo} alt="Loopstudios" />
           <ul>
             <li>
               <button>

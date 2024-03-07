@@ -49,6 +49,7 @@ img {
   width: 100%;
   padding: 20px;
   transition: 0.3s ease-in;
+  z-index: 1;
 }
 
 .active {
@@ -127,6 +128,7 @@ nav ul li button a {
   position: fixed;
   right: 20px;
 }
+
 .menu-btn.rotate .bar-1 {
   transform: rotate(45deg);
   margin-top: -7px;
@@ -566,6 +568,10 @@ nav ul li button a {
   margin-left: 0;
 }
 
+.footer-icons ul li a {
+  color: var(--white);
+}
+
 .footer-icons .copyright p {
   margin-top: 0.5rem;
   font-size: 0.9rem;
@@ -647,7 +653,7 @@ nav ul li button a {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  z-index: -1;
+  /* z-index: -1; */
 }
 
 .about-btn:hover {
